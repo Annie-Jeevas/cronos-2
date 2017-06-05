@@ -8,6 +8,14 @@
         <servlet-name>TeamServlet</servlet-name>
         <servlet-class>servlets.TeamServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RaceController</servlet-name>
+        <servlet-class>servlets.RaceController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RaceTypeController</servlet-name>
+        <servlet-class>servlets.RaceTypeController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SportsmenController</servlet-name>
         <url-pattern>/SportsmenController</url-pattern>
@@ -15,6 +23,14 @@
     <servlet-mapping>
         <servlet-name>TeamServlet</servlet-name>
         <url-pattern>/TeamServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RaceController</servlet-name>
+        <url-pattern>/RaceController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RaceTypeController</servlet-name>
+        <url-pattern>/RaceTypeController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
